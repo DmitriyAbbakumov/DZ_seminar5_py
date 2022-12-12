@@ -1,6 +1,6 @@
 # Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 
-with open ('rleinput.txt', 'r') as data:
+with open ('Python/Seminar5/DZ/rleinput.txt', 'r') as data:
     string=data.readline()
 
 def rle(text):
@@ -33,5 +33,5 @@ def decoding_rle(s:str):
 s1=decoding_rle(d)
 print(decoding_rle(d))
 
-with open('rleoutput.txt', 'w') as file:
+with open('Python/Seminar5/DZ/rleoutput.txt', 'w') as file:
     file.write(s1)
